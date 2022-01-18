@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.topnav{
+    background-color: #2874f0;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.topnav >img{
+    margin-left: 200px;
+}
+
+.topnav > select{
+    background-color: #2874f0;
+    color: white;
+    border-color: #2874f0;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.topnav > button{
+    margin-right: 5px;
+    margin-left: -2px;
+    background-color: white;
+    height: 32px;
+    border: 0;
+    outline: 0;
+}
+
+.topnav > i{
+    color: white;
+    margin-left: 25px;
+}
+
+.topnav >p{
+    font-weight: bold;
+    font-size: small;
+    color: white;
+} 
+
+#loginbutton{
+    margin: 10px 0 10px 200px;
+    color: #2874f0;
+    width: 100px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+}
+
+#searchbar{
+    margin: 10px 0px 10px 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 2px;
+    border-color: white;
+    border: 0;
+    outline: 0;
+}
+
+.categoryWrap{
+    width: auto;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    height: auto;
+    display: flex;
+    float: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+}
+
+
+.categoryWrap > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.categoryWrap >div >img{
+    width: 60px;
+    height: 60px;
+}
+
+.categoryTopOffer{
+    text-align: center;
+    align-items: center;
+}
+.categoryGrocery{
+    text-align: center;
+    align-items: center;
+}
+.categoryMobile{
+    text-align: center;
+    align-items: center;
+}
+
+.categoryfashion{
+    text-align: center;
+    align-items: center;
+}
+.categoryElectronics{
+    text-align: center;
+    align-items: center;
+}
+.categoryHome{
+    text-align: center;
+    align-items: center;
+}
+.categoryAppliance{
+    text-align: center;
+    align-items: center;
+}
+.categoryTravel{
+    text-align: center;
+    align-items: center;
+}
+.categoryMore{
+    text-align: center;
+    align-items: center;
+}
+
+.form-select{
+    margin-top: 23px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 0.67em;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemClockPad{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    border: 1px solid #80808057;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+.clockpad{
+    display: flex;
+}
+.clockpad > h4,p{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.fa{
+    display: flex;
+    align-items: center;
+}
+
+#ClockButton{
+    background-color: #2874f0;
+    border-color: #2874f0;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 11px;
+    border: 0;
+    outline: 0;
+}
+
+.containerItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #80808057;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    padding-bottom: 40px;
+}
+.containerItems > div > h6{
+    display:flex;
+    align-items: center;
+    margin: 5px;
+    justify-content: center;
+}
+.containerItems > div > p{
+    display: flex;
+    align-items: center;
+    font-size: xx-small;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.containerItems > div > img{
+    width: 100px;
+    height: 130px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#itembutton{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: larger;
+    border-color: white;
+    border: 0;
+    outline: 0;
+}
+
+.container1Img > img{
+    width: 200px;
+    height: 304px;
+    border: 1px solid #80808057;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+}
+
+.containerItemText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #80808057;
+    border-left-color: white;
+    border-right-color: white;
+}
+#container2button{
+    background-color: #2874f0;
+    border-color: #2874f0;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0;
+    outline: 0;
+}
+
+.containerImgItem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #80808057;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+}
+
+.container2{
+    /* display: flex; */
+    margin-right: 85px ;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 85px;
+}
+
+.containerImgItem > div > img{
+    width: 100px;
+    height: 130px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerImgItem > div > h6{
+    display:flex;
+    align-items: center;
+    margin: 5px;
+    justify-content: center;
+}
+.containerImgItem > div > p{
+    display: flex;
+    align-items: center;
+    font-size: xx-small;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
